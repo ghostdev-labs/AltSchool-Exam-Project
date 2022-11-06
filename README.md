@@ -1,26 +1,41 @@
-# AltSchool-Exam-Project
+# AltSchool-Exam-Project (Auto-Shop)
 
-John has just opened up his car selling shop, to sell different cars. He gets the cars he needs to sell from different people and they all bring it to him. 
-He needs to manage the list of cars he has, attach a price to them, and put them on display to be sold, basically John needs an inventory to manage cars & to manage sales. For instance, 
+--- An auto-mechanic Inventory ---
 
-He needs to see the number of cars that are left to be sold 
-He needs to see the sum of the prices of the cars left
-He needs to see the number of cars he has sold
-Sum total of the prices of cars he has sold
-A list of orders that for the sales he made
+## Description
 
-Using the knowledge of OOP in Go, Build simple classes for the following “objects”
+Auto-shop uses Object-Oriented Programming (OOP) paradigms in Go to create a mini shop
+management system for an auto-mechanics distributor. 
 
+## Features
 
-1. Car
-2. Product
-3. Store
+The store manager will be able to perform the following: 
 
+- Check the number of products in the store that are still up for sale
+- Add an Item to the store
+- List all product items in the store
+- Sell an item
+- Show a list of sold items and the total price
 
-The Car class can have any car attributes you can think of.
+## Setup
 
-The Product class should have attributes of a product i.e (the product, quantity of the product in stock, price of the product). A car is a product of the store, but there can be other products so the attribute of the car can be promoted to the Product. The Product class should have methods to display a product, and a method to display the status of a product if it is still in stock or not.
+To use this project, you must have `golang 1.18` or higher installed. If installed, go through
+the following processes:
 
-The Store class should have attributes like:
+- Clone this project using the following command: 
 
+```shell
+git clone https://github.com/ghostdev-labs/AltSchool-Exam-Project.git
+```
+
+- Change into project directory using:
+
+```shell
+cd AltSchool-Exam-Project
+```
+
+- Run project using:
+```shell
+go run main.go
+```
 
